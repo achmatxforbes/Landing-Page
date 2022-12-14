@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 1);
+}
+.container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+.nav ul li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color: gold;
+}
+.logo {
+    font-family: 'Freehand', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin: 25px;
+    border-radius: 25px;
+}
+#IMGone, #IMGtwo, #IMGthree, #IMGfour {
+    border-radius: 25px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+#IMGone:hover{
+    width: 300px;
+    height: 300px;
+}
+#IMGtwo:hover{
+    width: 300px;
+    height: 300px;
+}
+#IMGthree:hover{
+    width: 300px;
+    height: 300px;
+}
+#IMGfour:hover{
+    width: 300px;
+    height: 300px;
+}
+.youtube{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#YT_Header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: uppercase;
+}
+#YT_1, #YT_2, #YT_3, #YT_4 {
+    border-radius: 25px;
+}
+.content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.content h1, p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.call_to_follow {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50px;
+}
+.call_to_follow h2, p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif; 
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#fb_icon, #twi_icon, #ig_icon, #tt_icon, #yt_icon {
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+}
+#fb_icon:hover{
+    transform: translateY(-17px);
+}
+#twi_icon:hover{
+    transform: translateY(-17px);
+}
+#ig_icon:hover{
+    transform: translateY(-17px);
+}
+#tt_icon:hover{
+    transform: translateY(-17px);
+}
+#yt_icon:hover{
+    transform: translateY(-17px);
+}
